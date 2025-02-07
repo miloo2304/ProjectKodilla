@@ -11,9 +11,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_1/TestingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_1/TestingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,7 @@
     "Gradle.Build ProjectKodilla.executor": "Run",
     "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
     "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor": "Run",
+    "JUnit.CollectionTestSuite.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -67,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestingMain">
+  <component name="RunManager" selected="JUnit.CollectionTestSuite">
     <configuration name="ClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_2.ClassMain" />
       <module name="ProjectKodilla.kodilla-testing.main" />
@@ -94,16 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjectKodilla" />
+    <configuration name="CollectionTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ProjectKodilla.kodilla-testing.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.testing.Project_6_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.Project_6_3" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_3.CollectionTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjectKodilla" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <configuration name="ProjectKodillaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjectKodilla.main" />
@@ -114,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionTestSuite" />
         <item itemvalue="Application.ClassMain" />
         <item itemvalue="Application.TestingMain" />
       </list>
@@ -149,7 +157,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_2/ClassMain.java</url>
           <line>3</line>
-          <properties class="com.kodilla.testing.Project_6_2.ClassMain" method="main">
+          <properties class="com.kodilla.testing.Project_6_2.ClassMain">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
