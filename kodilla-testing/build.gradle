@@ -10,11 +10,16 @@ repositories {
 }
 
 dependencies {
+
+    implementation 'org.mockito:mockito-junit-jupiter:5.15.2'
     implementation 'org.junit.jupiter:junit-jupiter-api:5.11.4'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.11.4'
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '5.15.2'
+
 }
 
 test {
     useJUnitPlatform()
+
 }
