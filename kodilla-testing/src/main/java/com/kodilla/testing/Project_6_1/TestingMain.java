@@ -9,6 +9,10 @@ import com.kodilla.testing.Project_6_6.Book;
 import com.kodilla.testing.Project_6_6.LibraryUser;
 import com.kodilla.testing.Project_6_6.LibraryDatabase;
 import com.kodilla.testing.Project_6_6.LibraryDatabaseImpl;
+import com.kodilla.testing.Project_6_7.CountImpl;
+import com.kodilla.testing.Project_6_7.Statistics;
+import com.kodilla.testing.Project_6_7.StoryStatistics;
+
 
 import java.util.*;
 public class TestingMain {
@@ -33,7 +37,7 @@ public class TestingMain {
         double median = forecast.calculateMedianTemperature();
         System.out.println("Median Temperature: " + median);
         */
-
+        /*
         //Project 6_6
         LibraryDatabase libraryDatabase = new LibraryDatabaseImpl();
 
@@ -56,7 +60,17 @@ public class TestingMain {
         for (Book book : userBooks) {
             System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
-    }
+         */
+        // Example test cases
+        List<String> users = Arrays.asList("Alice", "Bob", "Charlie");
+        int posts = 10;
+        int comments = 5;
 
+        Statistics storyStatistics = new StoryStatistics(users, posts, comments);
+        CountImpl statisticsCalculator = new CountImpl();
+
+        statisticsCalculator.calculateAdvStatistics(storyStatistics);
+        statisticsCalculator.displayStatistics();
+    }
 }
 

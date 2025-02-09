@@ -11,8 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-testing/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_1/TestingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_1/TestingMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +59,8 @@
     "JUnit.CollectionTestSuite.executor": "Run",
     "JUnit.CollectionTestSuite.testOddNumbersExterminatorEmptyList.executor": "Run",
     "JUnit.CollectionTestSuite.testOddNumbersExterminatorNormalList.executor": "Run",
+    "JUnit.ForumDirectoryTestSuite.executor": "Run",
+    "JUnit.ForumDirectoryTestSuite.testCalculateAdvStatisticsWithZeroUsers.executor": "Run",
     "JUnit.ForumTestSuite.executor": "Debug",
     "JUnit.ShapeCollectorTest.testGetFigureOutOfBounds.executor": "Run",
     "JUnit.TestWeatherForecastTestSuite.executor": "Run",
@@ -82,7 +84,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BookDirectoryTestSuite">
+  <component name="RunManager" selected="Application.TestingMain">
     <configuration name="TestingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_1.TestingMain" />
       <module name="ProjectKodilla.kodilla-testing.main" />
@@ -127,33 +129,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDirectoryTestSuite.testListBooksWithConditionMoreThan20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumDirectoryTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-testing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.Project_6_6.library.mock.*" />
+          <option name="PATTERN" value="com.kodilla.testing.Project_6_7.Forum.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.Project_6_6.library.mock" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_6.library.mock.BookDirectoryTestSuite" />
-      <option name="METHOD_NAME" value="testListBooksWithConditionMoreThan20" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.Project_6_7.Forum.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_7.Forum.mock.ForumDirectoryTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherForecastTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumDirectoryTestSuite.testCalculateAdvStatisticsWithZeroUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-testing.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.testing.Project_6_5.weather.mock.*" />
+          <option name="PATTERN" value="com.kodilla.testing.Project_6_7.Forum.mock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.testing.Project_6_5.weather.mock" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_5.weather.mock.WeatherForecastTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.kodilla.testing.Project_6_7.Forum.mock" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.testing.Project_6_7.Forum.mock.ForumDirectoryTestSuite" />
+      <option name="METHOD_NAME" value="testCalculateAdvStatisticsWithZeroUsers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ForumDirectoryTestSuite" />
         <item itemvalue="JUnit.BookDirectoryTestSuite" />
+        <item itemvalue="JUnit.ForumDirectoryTestSuite.testCalculateAdvStatisticsWithZeroUsers" />
         <item itemvalue="Application.TestingMain" />
         <item itemvalue="JUnit.BookDirectoryTestSuite.testListBooksInHandsOfWhenUserHasMultipleBooks" />
-        <item itemvalue="JUnit.WeatherForecastTestSuite" />
-        <item itemvalue="JUnit.BookDirectoryTestSuite.testListBooksWithConditionMoreThan20" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,7 @@
       <updated>1738912665700</updated>
       <workItem from="1738912678364" duration="251000" />
       <workItem from="1738913181274" duration="7774000" />
-      <workItem from="1739042580235" duration="17119000" />
+      <workItem from="1739042580235" duration="22881000" />
     </task>
     <servers />
   </component>
@@ -211,15 +213,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_1/TestingMain.java</url>
-          <line>14</line>
-          <properties class="com.kodilla.testing.Project_6_1.TestingMain" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_6/library/mock/BookDirectoryTestSuite.java</url>
