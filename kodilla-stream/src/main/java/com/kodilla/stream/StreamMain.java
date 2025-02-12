@@ -10,10 +10,16 @@ import java.lang.*;
 import java.io.*;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
+import com.kodilla.stream.Project_7_2.iterate.NumbersGenerator;
 
 
 public class StreamMain {
     public static void main(String[] args) {
+        //Project 7.2
+        System.out.println("Using Stream to generate even numbers from 1 to 20");
+        NumbersGenerator.generateEven(20);
+
+        /*
         //Project 7.1
         PoemBeautifier poemBeautifier = new PoemBeautifier();
 
@@ -26,7 +32,7 @@ public class StreamMain {
         poemBeautifier.beautify("Good Morning", text -> "*** " + text + " ***");
         poemBeautifier.beautify("Good Morning", text -> new StringBuilder(text).reverse().toString());
         poemBeautifier.beautify("Good Morning", text -> text.substring(0, text.length()).toLowerCase());
-
+        */
 
         /*
         System.out.println("Hello, World!");
