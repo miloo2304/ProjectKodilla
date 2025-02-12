@@ -61,7 +61,7 @@ public class TestingMain {
             System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
          */
-        // Example test cases
+        // Project_6_7
         List<String> users = Arrays.asList("Alice", "Bob", "Charlie");
         int posts = 10;
         int comments = 5;
@@ -73,4 +73,3 @@ public class TestingMain {
         statisticsCalculator.displayStatistics();
     }
 }
-
