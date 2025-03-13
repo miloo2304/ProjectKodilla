@@ -10,8 +10,8 @@ public class Application {
 
         RentalProcessor rentalProcessor = new RentalProcessor(informationService, rentalService, rentalRepository);
 
-        User user = new User("User user", "User_user@gmail.com");
-        RentRequest rentRequest = new RentRequest(user, LocalDateTime.now(), LocalDateTime.now().plusDays(2));
+        User1 user1 = new User1("User user", "User_user@gmail.com");
+        RentRequest rentRequest = new RentRequest(user1, LocalDateTime.now(), LocalDateTime.now().plusDays(2));
 
         RentalDto rentalDto = rentalProcessor.process(rentRequest);
 

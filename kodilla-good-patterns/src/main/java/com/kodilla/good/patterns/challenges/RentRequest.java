@@ -2,18 +2,18 @@ package com.kodilla.good.patterns.challenges;
 import java.time.LocalDateTime;
 
 public class RentRequest {
-    private final User user;
+    private final User1 user1;
     private final LocalDateTime from;
     private final LocalDateTime to;
 
-    public RentRequest(User user, LocalDateTime from, LocalDateTime to) {
-        this.user = user;
+    public RentRequest(User1 user1, LocalDateTime from, LocalDateTime to) {
+        this.user1 = user1;
         this.from = from;
         this.to = to;
     }
 
-    public User getUser() {
-        return user;
+    public User1 getUser() {
+        return user1;
     }
 
     public LocalDateTime getFrom() {
