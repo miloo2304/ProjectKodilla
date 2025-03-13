@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/Project_7_7/RockPaperScissorrs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/BaseGameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameModeOneVsComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameModeOneVsOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameModeOneVsOneVsOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameModeOneVsThreeComputers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameModeOneVsTwoComputers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/GameSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/RockPaperScissorsGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kodilla-stream/src/main/java/com/kodilla/stream/game/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,73 +84,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ArrayOperationsTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookTestSuite.testGetListUsingFor.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build ProjectKodilla.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ExceptionTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileReaderTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileReaderTestSuite.testReadFile.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileReaderTestSuite.testReadFileWithName.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.FileReaderTestSuite.whenFileDosentExistsReadFileShouldThrowException.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.index.IndexExceptionRunner.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.io.FileReaderWithoutHandling.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.main.ExceptionModuleRunner.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.nullpointer.NullPointerExceptionRunner.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.nullpointer.OptionalExample.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.test.AdditionalChallenge.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.test.FirstChallenge.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-exception [:kodilla-exception:com.kodilla.exception.test.FlightsMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.exception.Project_6_1.TestingMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ForumDirectoryTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ProjectKodillaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.MovieStore.executor": "Run",
+    "Gradle.ArrayOperationsTestSuite.executor": "Run",
+    "Gradle.BoardTestSuite.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor": "Run",
+    "Gradle.BookTestSuite.executor": "Run",
+    "Gradle.BookTestSuite.testGetListUsingFor.executor": "Run",
+    "Gradle.Build ProjectKodilla.executor": "Run",
+    "Gradle.ForumUserTestSuite.executor": "Run",
+    "Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor": "Run",
+    "Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor": "Run",
+    "Gradle.SandStorageTestSuite.executor": "Run",
+    "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
+    "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
+    "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Run",
+    "Gradle.WholeWorldTestSuite.executor": "Run",
+    "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
+    "JUnit.ForumDirectoryTestSuite.executor": "Run",
+    "JUnit.WholeWorldTestSuite.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.ProjectKodillaApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.scopes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.FlightsMain">
-    <configuration name="FileReaderWithoutHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.io.FileReaderWithoutHandling" />
-      <module name="ProjectKodilla.kodilla-exception.main" />
+}]]></component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.Application" />
+      <module name="ProjectKodilla.kodilla-good-patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.io.*" />
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.test.FlightsMain" />
-      <module name="ProjectKodilla.kodilla-exception.main" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.Factorial" />
+      <module name="ProjectKodilla.kodilla-good-patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.test.*" />
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.index.IndexExceptionRunner" />
-      <module name="ProjectKodilla.kodilla-exception.main" />
+    <configuration name="MovieStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.good.patterns.challenges.MovieStore" />
+      <module name="ProjectKodilla.kodilla-good-patterns.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.index.*" />
+          <option name="PATTERN" value="com.kodilla.good.patterns.challenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,41 +173,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullPointerExceptionRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.nullpointer.NullPointerExceptionRunner" />
-      <module name="ProjectKodilla.kodilla-exception.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.nullpointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.stream.TESTS.Project_7_6.BoardTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
-    <configuration name="OptionalExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.exception.nullpointer.OptionalExample" />
-      <module name="ProjectKodilla.kodilla-exception.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.exception.nullpointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjectKodilla" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjectKodilla" />
-      <option name="filePath" />
+    <configuration name="BoardTestSuite.testAddTaskListAverageWorkingOnTask" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-stream:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.stream.TESTS.Project_7_6.BoardTestSuite.testAddTaskListAverageWorkingOnTask&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="ProjectKodillaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -212,20 +229,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FlightsMain" />
-      <item itemvalue="Application.IndexExceptionRunner" />
-      <item itemvalue="Application.FileReaderWithoutHandling" />
-      <item itemvalue="Application.NullPointerExceptionRunner" />
-      <item itemvalue="Application.OptionalExample" />
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.MovieStore" />
+      <item itemvalue="Gradle.BoardTestSuite" />
+      <item itemvalue="Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
       <item itemvalue="Spring Boot.ProjectKodillaApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OptionalExample" />
-        <item itemvalue="Application.NullPointerExceptionRunner" />
-        <item itemvalue="Application.IndexExceptionRunner" />
-        <item itemvalue="Application.FlightsMain" />
-        <item itemvalue="Application.FileReaderWithoutHandling" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.Factorial" />
+        <item itemvalue="Application.MovieStore" />
+        <item itemvalue="Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask" />
+        <item itemvalue="Gradle.BoardTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -250,11 +267,7 @@
       <workItem from="1739341495387" duration="5343000" />
       <workItem from="1739347265293" duration="24010000" />
       <workItem from="1739772498511" duration="3486000" />
-      <workItem from="1739776169692" duration="4217000" />
-      <workItem from="1740119194813" duration="15945000" />
-      <workItem from="1740141126036" duration="314000" />
-      <workItem from="1740141650315" duration="128000" />
-      <workItem from="1740983394647" duration="2776000" />
+      <workItem from="1739776169692" duration="3245000" />
     </task>
     <servers />
   </component>
@@ -265,7 +278,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/exception/Project_6_2/ClassMain.java</url>
+          <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/testing/Project_6_2/ClassMain.java</url>
           <line>3</line>
           <properties class="com.kodilla.testing.Project_6_2.ClassMain">
             <option name="EMULATED" value="true" />
@@ -300,15 +313,6 @@
           </properties>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/kodilla-exception/src/main/java/com/kodilla/exception/test/AdditionalChallenge.java</url>
-          <line>27</line>
-          <properties class="com.kodilla.exception.test.AdditionalChallenge" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/TESTS/WholeWorld/WholeWorldTestSuite.java</url>
           <line>10</line>
@@ -318,11 +322,6 @@
           <url>file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/TESTS/Book/BookTestSuite.java</url>
           <line>1</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kodilla-testing/src/main/java/com/kodilla/exception/Project_6_1/TestingMain.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
