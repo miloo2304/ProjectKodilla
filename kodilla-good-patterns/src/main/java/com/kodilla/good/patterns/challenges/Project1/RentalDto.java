@@ -1,4 +1,4 @@
-package com.kodilla.good.patterns.challenges;
+package com.kodilla.good.patterns.challenges.Project1;
 
 public class RentalDto {
     private final User1 user1;
