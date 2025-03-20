@@ -3,7 +3,6 @@ package com.kodilla.stream.game;
 import java.util.Scanner;
 
 public class RockPaperScissorsGame {
-    /*
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         GameSettings settings = new GameSettings();
@@ -31,27 +30,27 @@ public class RockPaperScissorsGame {
                     case 1 -> {
                         settings.setWinningScore(scanner);
                         GameMode gameMode = new GameMode(settings);
-                        gameMode.startGame(scanner);
+                        gameMode.chooseAndStartGameMode(scanner);
                     }
                     case 2 -> {
                         settings.setWinningScore(scanner);
                         GameMode gameMode = new GameMode(settings);
-                        gameMode.playOneVsTwoComputers(scanner);
+                        gameMode.chooseAndStartGameMode(scanner);
                     }
                     case 3 -> {
                         settings.setWinningScore(scanner);
                         GameMode gameMode = new GameMode(settings);
-                        gameMode.playOneVsThreeComputers(scanner);
+                        gameMode.chooseAndStartGameMode(scanner);
                     }
                     case 4 -> {
                         settings.setWinningScore(scanner);
                         GameMode gameMode = new GameMode(settings);
-                        gameMode.playTwoPlayers(scanner);
+                        gameMode.chooseAndStartGameMode(scanner);
                     }
                     case 5 -> {
                         settings.setWinningScore(scanner);
                         GameMode gameMode = new GameMode(settings);
-                        gameMode.playThreePlayers(scanner);
+                        gameMode.chooseAndStartGameMode(scanner);
                     }
                     case 7 -> {
                         settings.chooseLanguage(scanner);
@@ -74,6 +73,4 @@ public class RockPaperScissorsGame {
 
         scanner.close();
     }
-
-     */
 }
