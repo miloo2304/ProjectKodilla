@@ -7,14 +7,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 public class ForumUserTestSuite {
-
     @Autowired
     private ForumUser forumUser;
 
     @Test
     void testGetUsername() {
-
         String username = forumUser.getUsername();
-        assertEquals("John Smith", username, "Test should return John Smith");
+        assertEquals("John Smith", username);
     }
 }
