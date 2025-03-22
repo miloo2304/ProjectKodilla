@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +92,7 @@
     "Gradle.KodillaSpringApplicationTests.executor": "Run",
     "Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor": "Run",
     "Gradle.LibraryTestSuite.executor": "Run",
+    "Gradle.LibraryTestSuite.testLoadFromDb.executor": "Run",
     "Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor": "Run",
     "Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor": "Run",
     "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
@@ -152,31 +140,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTestSuite">
-    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-spring:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.calculator.CalculatorTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MainClass">
     <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -201,7 +165,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="CalculatorTest.testSimpleDisplayIntegration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -214,7 +178,31 @@
           <list>
             <option value=":kodilla-spring:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.calculator.CalculatorTest.testSimpleDisplayIntegration&quot;" />
+            <option value="&quot;com.kodilla.spring.library.LibraryTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTestSuite.testLoadFromDb" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.spring.library.LibraryTestSuite.testLoadFromDb&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -266,9 +254,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.CalculatorTest.testSimpleDisplayIntegration" />
-      <item itemvalue="Gradle.CalculatorTest" />
+      <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
       <item itemvalue="Gradle.CalculatorTestSuite" />
+      <item itemvalue="Gradle.LibraryTestSuite" />
       <item itemvalue="Spring Boot.KodillaSpringApplication" />
       <item itemvalue="Spring Boot.ProjectKodillaApplication" />
       <item itemvalue="Spring Boot.KodillaSpringApplication (1)" />
@@ -276,11 +264,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CalculatorTestSuite" />
-        <item itemvalue="Spring Boot.KodillaSpringApplication (1)" />
         <item itemvalue="Spring Boot.MainClass" />
-        <item itemvalue="Gradle.CalculatorTest" />
-        <item itemvalue="Gradle.CalculatorTest.testSimpleDisplayIntegration" />
+        <item itemvalue="Gradle.CalculatorTestSuite" />
+        <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
+        <item itemvalue="Gradle.LibraryTestSuite" />
+        <item itemvalue="Spring Boot.KodillaSpringApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +296,7 @@
       <workItem from="1739776169692" duration="3245000" />
       <workItem from="1741893189866" duration="5641000" />
       <workItem from="1741903682324" duration="1920000" />
-      <workItem from="1742658799240" duration="9191000" />
+      <workItem from="1742658799240" duration="9796000" />
     </task>
     <servers />
   </component>

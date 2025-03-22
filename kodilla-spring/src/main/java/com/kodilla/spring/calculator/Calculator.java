@@ -13,7 +13,7 @@ public class Calculator {
     private Display display;
 
     @Autowired
-    public void setDisplay(Display display) {
+    public void Calculator(Display display) {
         this.display = display;
     }
 

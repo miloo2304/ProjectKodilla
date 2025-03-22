@@ -91,7 +91,7 @@ class CalculatorTestSuite {
         // Given
         String simulatedInput = "5*5\nexit\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
-        calculator.setDisplay(display);
+        calculator.Calculator(display);
         // When
         calculator.calculate();
         // Then
