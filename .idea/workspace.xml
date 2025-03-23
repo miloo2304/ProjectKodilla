@@ -11,13 +11,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/calculator/MainClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/calculator/CalculatorTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/calculator/CalculatorTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/forum/ForumUserTestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/library/LibraryTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/library/LibraryTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,6 +178,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="KodillaSpringApplicationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-spring:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.spring.KodillaSpringApplicationTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -241,6 +264,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.KodillaSpringApplicationTests" />
       <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
       <item itemvalue="Gradle.CalculatorTestSuite" />
       <item itemvalue="Gradle.LibraryTestSuite" />
@@ -249,8 +273,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.KodillaSpringApplication" />
-        <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
+        <item itemvalue="Gradle.KodillaSpringApplicationTests" />
         <item itemvalue="Gradle.CalculatorTestSuite" />
+        <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
         <item itemvalue="Gradle.LibraryTestSuite" />
       </list>
     </recent_temporary>
@@ -282,7 +307,7 @@
       <workItem from="1742658799240" duration="14872000" />
       <workItem from="1742678650167" duration="3088000" />
       <workItem from="1742717425401" duration="510000" />
-      <workItem from="1742717958928" duration="518000" />
+      <workItem from="1742717958928" duration="1926000" />
     </task>
     <servers />
   </component>

@@ -91,12 +91,14 @@ class CalculatorTestSuite {
         // Given
         String simulatedInput = "5*5\nexit\n";
         System.setIn(new ByteArrayInputStream(simulatedInput.getBytes()));
-        calculator.Calculator(display);
+        Display display = mock(Display.class);  // Mock Display
+        Calculator calculator = new Calculator(display); // Correctly instantiate the Calculator
         // When
         calculator.calculate();
         // Then
         verify(display).displayValue(25.0);
     }
+
 
     @Test
     void testNegativeNumberHandling() {

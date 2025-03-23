@@ -2,39 +2,44 @@ package com.kodilla.spring.calculator;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import java.util.Stack;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 @Component
 public class Calculator {
 
-    private Display display;
+    private final Display display;
 
     @Autowired
-    public void Calculator(Display display) {
+    public  Calculator(Display display) {  // Fixed constructor
         this.display = display;
     }
 
     public void calculate() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Welcome!");
-        System.out.println("Supported operators are : +, -, *, /, ().");
-        System.out.println("Type 'exit', to quit.");
-        while (true) {
-            System.out.println("\nType an equation or 'exit', to quit:");
-            String equation = scanner.nextLine();
-            if (equation.equalsIgnoreCase("exit")) {
-                System.out.println("Thank You! Goodbye!");
-                break;
-            }
-            try {
-                double result = evaluateEquation(equation);
-                display.displayValue(result);
-            } catch (IllegalArgumentException e) {
-                System.out.println("Error: " + e.getMessage());
-                System.out.println("Try again.");
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Welcome!");
+            System.out.println("Supported operators: +, -, *, /, ().");
+            System.out.println("Type 'exit' to quit.");
+
+            while (true) {
+                System.out.println("\nEnter an equation or type 'exit' to quit:");
+                if (!scanner.hasNextLine()) {
+                    System.out.println("No input provided. Exiting.");
+                    break;
+                }
+                String equation = scanner.nextLine();
+
+                if (equation.equalsIgnoreCase("exit")) {
+                    System.out.println("Thank you! Goodbye!");
+                    break;
+                }
+
+                try {
+                    double result = evaluateEquation(equation);
+                    display.displayValue(result);
+                } catch (IllegalArgumentException e) {
+                    System.out.println("Error: " + e.getMessage());
+                    System.out.println("Try again.");
+                }
             }
         }
     }
@@ -53,6 +58,9 @@ public class Calculator {
             if (equation.charAt(i) == '(') {
                 stack.push(i);
             } else if (equation.charAt(i) == ')') {
+                if (stack.isEmpty()) {  // Prevent popping from an empty stack
+                    throw new IllegalArgumentException("Mismatched parentheses in equation.");
+                }
                 int start = stack.pop();
                 String subExpression = equation.substring(start + 1, i);
                 double subResult = evaluateSimpleExpression(subExpression);
@@ -77,7 +85,7 @@ public class Calculator {
                     result = left * right;
                 } else {
                     if (right == 0) {
-                        throw new IllegalArgumentException("Dividing by zero!");
+                        throw new IllegalArgumentException("Error: Division by zero.");
                     }
                     result = left / right;
                 }
