@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="" />
+    <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/calculator/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/shape/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-spring/src/test/java/com/kodilla/spring/KodillaSpringApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,72 +78,72 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.MovieStore.executor": "Run",
-    "Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor": "Run",
-    "Gradle.ArrayOperationsTestSuite.executor": "Run",
-    "Gradle.BoardTestSuite.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor": "Run",
-    "Gradle.BookTestSuite.executor": "Run",
-    "Gradle.BookTestSuite.testGetListUsingFor.executor": "Run",
-    "Gradle.Build ProjectKodilla.executor": "Run",
-    "Gradle.CalculatorTest.executor": "Run",
-    "Gradle.CalculatorTest.testDivideAndMultiply.executor": "Run",
-    "Gradle.CalculatorTest.testSimpleDisplayIntegration.executor": "Run",
-    "Gradle.CalculatorTestSuite.executor": "Run",
-    "Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor": "Run",
-    "Gradle.ForumUserTestSuite.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetUsername.executor": "Run",
-    "Gradle.KodillaApplicationTests.executor": "Run",
-    "Gradle.KodillaSpringApplicationTests.executor": "Run",
-    "Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor": "Run",
-    "Gradle.LibraryTestSuite.executor": "Run",
-    "Gradle.LibraryTestSuite.testLoadFromDb.executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor": "Run",
-    "Gradle.SandStorageTestSuite.executor": "Run",
-    "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
-    "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
-    "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Run",
-    "Gradle.WholeWorldTestSuite.executor": "Run",
-    "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
-    "JUnit.ForumDirectoryTestSuite.executor": "Run",
-    "JUnit.WholeWorldTestSuite.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.KodillaSpringApplication (1).executor": "Run",
-    "Spring Boot.KodillaSpringApplication.executor": "Run",
-    "Spring Boot.MainClass.executor": "Run",
-    "Spring Boot.ProjectKodillaApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieStore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArrayOperationsTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BookTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BookTestSuite.testGetListUsingFor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ProjectKodilla.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.testDivideAndMultiply.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.testSimpleDisplayIntegration.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetUsername.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaSpringApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.testLoadFromDb.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ForumDirectoryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KodillaSpringApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KodillaSpringApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProjectKodillaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -140,7 +154,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainClass">
+  <component name="RunManager" selected="Spring Boot.KodillaSpringApplication">
     <configuration name="CalculatorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -213,7 +227,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="KodillaSpringApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="KodillaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="ProjectKodilla.kodilla-spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.KodillaSpringApplication" />
       <extension name="coverage">
@@ -226,49 +240,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KodillaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ProjectKodilla.kodilla-spring.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.forum.KodillaSpringApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ProjectKodilla.kodilla-spring.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.calculator.MainClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectKodillaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ProjectKodilla.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.projectkodilla.ProjectKodillaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
       <item itemvalue="Gradle.CalculatorTestSuite" />
       <item itemvalue="Gradle.LibraryTestSuite" />
       <item itemvalue="Spring Boot.KodillaSpringApplication" />
-      <item itemvalue="Spring Boot.ProjectKodillaApplication" />
-      <item itemvalue="Spring Boot.KodillaSpringApplication (1)" />
-      <item itemvalue="Spring Boot.MainClass" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MainClass" />
-        <item itemvalue="Gradle.CalculatorTestSuite" />
+        <item itemvalue="Spring Boot.KodillaSpringApplication" />
         <item itemvalue="Gradle.LibraryTestSuite.testLoadFromDb" />
+        <item itemvalue="Gradle.CalculatorTestSuite" />
         <item itemvalue="Gradle.LibraryTestSuite" />
-        <item itemvalue="Spring Boot.KodillaSpringApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +279,10 @@
       <workItem from="1739776169692" duration="3245000" />
       <workItem from="1741893189866" duration="5641000" />
       <workItem from="1741903682324" duration="1920000" />
-      <workItem from="1742658799240" duration="9796000" />
+      <workItem from="1742658799240" duration="14872000" />
+      <workItem from="1742678650167" duration="3088000" />
+      <workItem from="1742717425401" duration="510000" />
+      <workItem from="1742717958928" duration="518000" />
     </task>
     <servers />
   </component>
@@ -353,13 +339,8 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/calculator/Calculator.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/kodilla-spring/src/main/java/com/kodilla/spring/KodillaSpringApplication.java</url>
-          <line>10</line>
+          <line>20</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
