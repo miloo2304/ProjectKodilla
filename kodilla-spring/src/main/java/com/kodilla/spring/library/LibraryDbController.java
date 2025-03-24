@@ -1,4 +1,4 @@
-package com.kodilla.spring.shape;
+package com.kodilla.spring.library;
 
 import org.springframework.stereotype.Repository;
 
