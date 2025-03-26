@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +80,7 @@
     "Application.MovieStore.executor": "Run",
     "Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor": "Run",
     "Gradle.ArrayOperationsTestSuite.executor": "Run",
+    "Gradle.BoardTestSuite (1).executor": "Run",
     "Gradle.BoardTestSuite.executor": "Run",
     "Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor": "Run",
     "Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor": "Run",
@@ -109,6 +103,7 @@
     "Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor": "Run",
     "Gradle.LibraryTestSuite.executor": "Run",
     "Gradle.LibraryTestSuite.testContext.executor": "Run",
+    "Gradle.LibraryTestSuite.testGetBooks.executor": "Run",
     "Gradle.LibraryTestSuite.testLoadFromDb.executor": "Run",
     "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.MainClass.main()].executor": "Run",
     "Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor": "Run",
@@ -162,21 +157,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LoggerTestSuite">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.MainClass" />
-      <module name="ProjectKodilla.kodilla-patterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BoardTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LibraryTestSuite.testGetBooks">
+    <configuration name="BoardTestSuite (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,9 +169,57 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":kodilla-spring:test" />
+            <option value=":kodilla-patterns:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.spring.board.BoardTestSuite&quot;" />
+            <option value="&quot;com.kodilla.patterns.prototype.BoardTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-patterns:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.patterns.prototype.LibraryTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="LibraryTestSuite.testGetBooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-patterns:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.patterns.prototype.LibraryTestSuite.testGetBooks&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -248,19 +278,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="KodillaSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="ProjectKodilla.kodilla-spring.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.KodillaSpringApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KodillaSpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-spring-web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.web.KodillaSpringWebApplication" />
@@ -269,20 +286,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Gradle.BoardTestSuite (1)" />
+      <item itemvalue="Gradle.LibraryTestSuite" />
+      <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
       <item itemvalue="Gradle.LoggerTestSuite" />
       <item itemvalue="Gradle.SettingsFileEngineTestSuite" />
-      <item itemvalue="Gradle.BoardTestSuite" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
-      <item itemvalue="Spring Boot.KodillaSpringApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
+        <item itemvalue="Gradle.LibraryTestSuite" />
+        <item itemvalue="Gradle.BoardTestSuite (1)" />
         <item itemvalue="Gradle.LoggerTestSuite" />
         <item itemvalue="Gradle.SettingsFileEngineTestSuite" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Spring Boot.KodillaSpringApplication" />
-        <item itemvalue="Gradle.BoardTestSuite" />
       </list>
     </recent_temporary>
   </component>
