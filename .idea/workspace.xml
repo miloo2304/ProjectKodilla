@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -94,6 +92,8 @@
     "Gradle.CalculatorTest.testSimpleDisplayIntegration.executor": "Run",
     "Gradle.CalculatorTestSuite.executor": "Run",
     "Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor": "Run",
+    "Gradle.CustomerTestSuite.executor": "Run",
+    "Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor": "Run",
     "Gradle.ForumUserTestSuite.executor": "Run",
     "Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor": "Run",
     "Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor": "Run",
@@ -117,6 +117,7 @@
     "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
     "Gradle.SettingsFileEngineTestSuite.executor": "Run",
     "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Run",
+    "Gradle.UserTestSuite.executor": "Run",
     "Gradle.WholeWorldTestSuite.executor": "Run",
     "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
     "JUnit.ForumDirectoryTestSuite.executor": "Run",
@@ -157,8 +158,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.LibraryTestSuite.testGetBooks">
-    <configuration name="BoardTestSuite (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserTestSuite">
+    <configuration name="CustomerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -171,7 +172,31 @@
           <list>
             <option value=":kodilla-patterns:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.patterns.prototype.BoardTestSuite&quot;" />
+            <option value="&quot;com.kodilla.patterns.strategy.CustomerTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CustomerTestSuite.testIndividualInvestingStrategy" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-patterns:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.patterns.strategy.CustomerTestSuite.testIndividualInvestingStrategy&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -230,7 +255,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoggerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -243,31 +268,7 @@
           <list>
             <option value=":kodilla-patterns:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.patterns.singleton.LoggerTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SettingsFileEngineTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-patterns:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.patterns.singleton.SettingsFileEngineTestSuite&quot;" />
+            <option value="&quot;com.kodilla.patterns.strategy.social.UserTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -286,20 +287,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.BoardTestSuite (1)" />
+      <item itemvalue="Gradle.UserTestSuite" />
+      <item itemvalue="Gradle.CustomerTestSuite" />
+      <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
       <item itemvalue="Gradle.LibraryTestSuite" />
       <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
-      <item itemvalue="Gradle.LoggerTestSuite" />
-      <item itemvalue="Gradle.SettingsFileEngineTestSuite" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserTestSuite" />
+        <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
+        <item itemvalue="Gradle.CustomerTestSuite" />
         <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
         <item itemvalue="Gradle.LibraryTestSuite" />
-        <item itemvalue="Gradle.BoardTestSuite (1)" />
-        <item itemvalue="Gradle.LoggerTestSuite" />
-        <item itemvalue="Gradle.SettingsFileEngineTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -333,6 +334,7 @@
       <workItem from="1742717958928" duration="1926000" />
       <workItem from="1742813257520" duration="3779000" />
       <workItem from="1742944274796" duration="2224000" />
+      <workItem from="1743145962673" duration="2385000" />
     </task>
     <servers />
   </component>
