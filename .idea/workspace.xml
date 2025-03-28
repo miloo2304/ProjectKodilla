@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,9 @@
     "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
     "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
     "Gradle.SettingsFileEngineTestSuite.executor": "Run",
+    "Gradle.ShapeFactoryTestSuite.executor": "Run",
     "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Run",
+    "Gradle.TaskFactoryTestSuite.executor": "Run",
     "Gradle.UserTestSuite.executor": "Run",
     "Gradle.WholeWorldTestSuite.executor": "Run",
     "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
@@ -158,7 +159,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.UserTestSuite">
+  <component name="RunManager" selected="Gradle.TaskFactoryTestSuite">
     <configuration name="CustomerTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -207,7 +208,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ShapeFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -220,7 +221,7 @@
           <list>
             <option value=":kodilla-patterns:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.patterns.prototype.LibraryTestSuite&quot;" />
+            <option value="&quot;com.kodilla.patterns.factory.ShapeFactoryTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -231,7 +232,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTestSuite.testGetBooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskFactoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -244,7 +245,7 @@
           <list>
             <option value=":kodilla-patterns:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.patterns.prototype.LibraryTestSuite.testGetBooks&quot;" />
+            <option value="&quot;com.kodilla.patterns.tasks.TaskFactoryTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -287,20 +288,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.ShapeFactoryTestSuite" />
+      <item itemvalue="Gradle.TaskFactoryTestSuite" />
       <item itemvalue="Gradle.UserTestSuite" />
       <item itemvalue="Gradle.CustomerTestSuite" />
       <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
-      <item itemvalue="Gradle.LibraryTestSuite" />
-      <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaskFactoryTestSuite" />
+        <item itemvalue="Gradle.ShapeFactoryTestSuite" />
         <item itemvalue="Gradle.UserTestSuite" />
         <item itemvalue="Gradle.CustomerTestSuite.testIndividualInvestingStrategy" />
         <item itemvalue="Gradle.CustomerTestSuite" />
-        <item itemvalue="Gradle.LibraryTestSuite.testGetBooks" />
-        <item itemvalue="Gradle.LibraryTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +335,23 @@
       <workItem from="1742717958928" duration="1926000" />
       <workItem from="1742813257520" duration="3779000" />
       <workItem from="1742944274796" duration="2224000" />
-      <workItem from="1743145962673" duration="2385000" />
+      <workItem from="1743145962673" duration="5247000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
