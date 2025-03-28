@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/Project_7_4/invoice/simple/SimpleItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/Project_7_4/invoice/simple/SimpleItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +55,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -127,6 +132,7 @@
     "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
     "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
     "Gradle.SettingsFileEngineTestSuite.executor": "Run",
+    "Gradle.ShapeCollectorTestSuite.executor": "Run",
     "Gradle.ShapeFactoryTestSuite.executor": "Run",
     "Gradle.SimpleInvoiceTestSuite.executor": "Run",
     "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Debug",
@@ -172,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FibonacciMain">
+  <component name="RunManager" selected="Gradle.ShapeCollectorTestSuite">
     <configuration name="FibonacciMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.fibonacci.FibonacciMain" />
       <module name="ProjectKodilla.kodilla-patterns.main" />
@@ -185,30 +191,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LoopTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-testing:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.testing.loop.LoopTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
     </configuration>
     <configuration name="LoopTestSuite.testLoop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -224,6 +206,30 @@
             <option value=":kodilla-testing:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.testing.loop.LoopTestSuite.testLoop&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ShapeCollectorTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testing:test" />
+            <option value="--tests" />
+            <option value="&quot;ShapeCollectorTestSuite&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -291,7 +297,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.FibonacciMain" />
-      <item itemvalue="Gradle.LoopTestSuite" />
+      <item itemvalue="Gradle.ShapeCollectorTestSuite" />
       <item itemvalue="Gradle.LoopTestSuite.testLoop" />
       <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
       <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
@@ -299,11 +305,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ShapeCollectorTestSuite" />
         <item itemvalue="Application.FibonacciMain" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
         <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
         <item itemvalue="Gradle.LoopTestSuite.testLoop" />
-        <item itemvalue="Gradle.LoopTestSuite" />
       </list>
     </recent_temporary>
   </component>
