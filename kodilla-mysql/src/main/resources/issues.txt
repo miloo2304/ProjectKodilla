@@ -1,0 +1,16 @@
+ID	ISSUESLIST_ID	SUMMARY	DESCRIPTION	USER_ID_ASSIGNEDTO
+1	1	Write project report	Complete the end-of-project report	1
+2	1	Prepare presentation	Create slides for the quarterly review	2
+3	1	Review code	Go through the pull request and confirm changes	3
+4	1	Test new feature	Perform manual testing for the new functionality	4
+5	1	Update documentation	Revise the user manual with the latest updates	5
+6	2	Debug login issue	Investigate and fix authentication errors	1
+7	2	Implement feature X	Develop and integrate feature X into the system	2
+8	2	Optimize database queries	Review and optimize slow SQL queries	3
+9	2	Set up CI/CD	Configure continuous integration and delivery pipelines	4
+10	2	Update React components	Refactor and update UI components in React	5
+11	3	Refactor user module	Simplify and improve user management module	1
+12	3	Fix CSS issues	Resolve layout and styling problems on the frontend	2
+13	3	Deploy to staging	Push the latest changes to the staging environment	3
+14	3	Conduct meeting	Hold the weekly team meeting to discuss progress	4
+15	3	Prepare release notes	Draft release notes for the upcoming version	5
