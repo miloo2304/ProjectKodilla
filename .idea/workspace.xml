@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,96 +69,98 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MovieStore.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ArrayOperationsTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BigmacTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BigmacTestSuite.testBigmacBuilderWithInvalidIngredient.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite (1).executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.BookTestSuite.testGetListUsingFor.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build ProjectKodilla.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculatorTest.testDivideAndMultiply.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculatorTest.testSimpleDisplayIntegration.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculatorTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckersTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CheckersTestSuite.testCheckersBuilder.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.CustomerTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ForumUserTestSuite.testGetUsername.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KodillaApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KodillaSpringApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LibraryTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LibraryTestSuite.testContext.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LibraryTestSuite.testGetBooks.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LibraryTestSuite.testLoadFromDb.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LoopTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.LoopTestSuite.testLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PizzaTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.PizzaTestSuite.testPizzaNew.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.MainClass.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.fibonacci.FibonacciMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReaderTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ReaderTestSuite.testConditional.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SettingsFileEngineTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ShapeCollectorTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ShapeFactoryTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleInvoiceTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.TaskFactoryTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ForumDirectoryTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.KodillaSpringApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.KodillaSpringApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.KodillaSpringWebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.ProjectKodillaApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;debugger.dataViews&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.MovieStore.executor": "Run",
+    "Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor": "Run",
+    "Gradle.ArrayOperationsTestSuite.executor": "Run",
+    "Gradle.BigmacTestSuite.executor": "Run",
+    "Gradle.BigmacTestSuite.testBigmacBuilderWithInvalidIngredient.executor": "Run",
+    "Gradle.BoardTestSuite (1).executor": "Run",
+    "Gradle.BoardTestSuite.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor": "Run",
+    "Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor": "Run",
+    "Gradle.BookTestSuite.executor": "Run",
+    "Gradle.BookTestSuite.testGetListUsingFor.executor": "Run",
+    "Gradle.Build ProjectKodilla.executor": "Run",
+    "Gradle.CalculatorTest.executor": "Run",
+    "Gradle.CalculatorTest.testDivideAndMultiply.executor": "Run",
+    "Gradle.CalculatorTest.testSimpleDisplayIntegration.executor": "Run",
+    "Gradle.CalculatorTestSuite.executor": "Run",
+    "Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor": "Run",
+    "Gradle.CalculatorTestSuite.testSubstract.executor": "Run",
+    "Gradle.CheckersTestSuite.executor": "Run",
+    "Gradle.CheckersTestSuite.testCheckersBuilder.executor": "Debug",
+    "Gradle.CustomerTestSuite.executor": "Run",
+    "Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor": "Run",
+    "Gradle.ForumUserTestSuite.executor": "Run",
+    "Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor": "Run",
+    "Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor": "Run",
+    "Gradle.ForumUserTestSuite.testGetUsername.executor": "Run",
+    "Gradle.KodillaApplicationTests.executor": "Run",
+    "Gradle.KodillaSpringApplicationTests.executor": "Run",
+    "Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor": "Run",
+    "Gradle.LibraryTestSuite.executor": "Run",
+    "Gradle.LibraryTestSuite.testContext.executor": "Run",
+    "Gradle.LibraryTestSuite.testGetBooks.executor": "Run",
+    "Gradle.LibraryTestSuite.testLoadFromDb.executor": "Run",
+    "Gradle.LoopTestSuite.executor": "Run",
+    "Gradle.LoopTestSuite.testLoop.executor": "Run",
+    "Gradle.PizzaTestSuite.executor": "Run",
+    "Gradle.PizzaTestSuite.testPizzaNew.executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-mysql [:kodilla-mysql:ExportIssuesToFile.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.MainClass.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.fibonacci.FibonacciMain.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
+    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor": "Run",
+    "Gradle.ReaderTestSuite.executor": "Run",
+    "Gradle.ReaderTestSuite.testConditional.executor": "Run",
+    "Gradle.SandStorageTestSuite.executor": "Run",
+    "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
+    "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
+    "Gradle.SettingsFileEngineTestSuite.executor": "Run",
+    "Gradle.ShapeCollectorTestSuite.executor": "Run",
+    "Gradle.ShapeFactoryTestSuite.executor": "Run",
+    "Gradle.SimpleInvoiceTestSuite.executor": "Run",
+    "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Debug",
+    "Gradle.TaskFactoryTestSuite.executor": "Run",
+    "Gradle.UserTestSuite.executor": "Run",
+    "Gradle.WholeWorldTestSuite.executor": "Run",
+    "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
+    "JUnit.ForumDirectoryTestSuite.executor": "Run",
+    "JUnit.WholeWorldTestSuite.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.KodillaSpringApplication (1).executor": "Run",
+    "Spring Boot.KodillaSpringApplication.executor": "Run",
+    "Spring Boot.KodillaSpringWebApplication.executor": "Run",
+    "Spring Boot.MainClass.executor": "Run",
+    "Spring Boot.ProjectKodillaApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "debugger.dataViews",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -173,16 +171,17 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.CalculatorTestSuite">
-    <configuration name="FibonacciMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.patterns.fibonacci.FibonacciMain" />
-      <module name="ProjectKodilla.kodilla-patterns.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.patterns.fibonacci.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Integers">
+    <configuration name="ExportIssuesToFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExportIssuesToFile" />
+      <module name="ProjectKodilla.kodilla-mysql.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Integers" />
+      <module name="ProjectKodilla.kodilla-mysql.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,6 +200,30 @@
             <option value=":kodilla-testing:test" />
             <option value="--tests" />
             <option value="&quot;com.kodilla.testing.calculator.CalculatorTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTestSuite.testSubstract" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-testing:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.testing.calculator.CalculatorTestSuite.testSubstract&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -235,54 +258,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleInvoiceTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-stream:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.stream.TESTS.invoice.simple.SimpleInvoiceTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="SimpleInvoiceTestSuite.testGetValueToPay" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-stream:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.stream.TESTS.invoice.simple.SimpleInvoiceTestSuite.testGetValueToPay&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="KodillaSpringWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-spring-web.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kodilla.spring.web.KodillaSpringWebApplication" />
@@ -291,20 +266,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FibonacciMain" />
+      <item itemvalue="Application.ExportIssuesToFile" />
+      <item itemvalue="Application.Integers" />
+      <item itemvalue="Gradle.CalculatorTestSuite.testSubstract" />
       <item itemvalue="Gradle.CalculatorTestSuite" />
       <item itemvalue="Gradle.ShapeCollectorTestSuite" />
-      <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
-      <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Integers" />
+        <item itemvalue="Application.ExportIssuesToFile" />
+        <item itemvalue="Gradle.CalculatorTestSuite.testSubstract" />
         <item itemvalue="Gradle.CalculatorTestSuite" />
         <item itemvalue="Gradle.ShapeCollectorTestSuite" />
-        <item itemvalue="Application.FibonacciMain" />
-        <item itemvalue="Gradle.SimpleInvoiceTestSuite.testGetValueToPay" />
-        <item itemvalue="Gradle.SimpleInvoiceTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +332,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
