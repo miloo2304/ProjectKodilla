@@ -1,0 +1,13 @@
+INSERT INTO POSTS (USER_ID, BODY)
+VALUES (1, 'Temporary post for testing purposes');
+
+UPDATE POSTS
+SET BODY = 'To delete'
+WHERE ID = (
+    SELECT temp.ID FROM (SELECT MAX(ID) AS ID FROM POSTS) temp
+);
+
+DELETE FROM POSTS
+WHERE ID = (
+    SELECT temp.ID FROM (SELECT MAX(ID) AS ID FROM POSTS) temp
+);
