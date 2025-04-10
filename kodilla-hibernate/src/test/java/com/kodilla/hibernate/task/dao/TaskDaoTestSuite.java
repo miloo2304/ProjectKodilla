@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
+import com.kodilla.hibernate.task.TaskFinancialDetails;
+import java.math.BigDecimal;
 
 @SpringBootTest
 class TaskDaoTestSuite {
@@ -47,6 +49,23 @@ class TaskDaoTestSuite {
 
         //CleanUp
         int id = readTasks.get(0).getId();
+        taskDao.deleteById(id);
+        //taskDao.deleteAll();
+    }
+    @Test
+    void testTaskDaoSaveWithFinancialDetails() {
+        //Given
+        Task task = new Task(DESCRIPTION, 30);
+        task.setTaskFinancialDetails(new TaskFinancialDetails(new BigDecimal(120), false));
+
+        //When
+        taskDao.save(task);
+        int id = task.getId();
+
+        //Then
+        assertNotEquals(0, id);
+
+        //CleanUp
         taskDao.deleteById(id);
         //taskDao.deleteAll();
     }
