@@ -5,6 +5,7 @@ import com.kodilla.hibernate.manytomany.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -59,4 +60,46 @@ class CompanyDaoTestSuite {
             //do nothing
         }
     }
+    @Test
+    void testFindByFirstThreeCharacters() {
+        // Given
+        Company company1 = new Company("ABC Technologies");
+        Company company2 = new Company("ABC Solutions");
+        Company company3 = new Company("DEF Innovations");
+
+        companyDao.save(company1);
+        companyDao.save(company2);
+        companyDao.save(company3);
+
+        // When
+        List<Company> companiesWithPrefixABC = companyDao.findByFirstThreeCharacters("ABC");
+
+        // Then
+        assertEquals(2, companiesWithPrefixABC.size());
+        assertTrue(companiesWithPrefixABC.stream().anyMatch(company -> company.getName().equals("ABC Technologies")));
+        assertTrue(companiesWithPrefixABC.stream().anyMatch(company -> company.getName().equals("ABC Solutions")));
+
+        // CleanUp
+        companyDao.deleteAll();
+    }
+
+    @Test
+    void testFindByFirstThreeCharacters_NoMatch() {
+        // Given
+        Company company1 = new Company("XYZ Enterprise");
+        Company company2 = new Company("LMN Corporation");
+
+        companyDao.save(company1);
+        companyDao.save(company2);
+
+        // When
+        List<Company> companiesWithPrefixABC = companyDao.findByFirstThreeCharacters("ABC");
+
+        // Then
+        assertEquals(0, companiesWithPrefixABC.size());
+
+        // CleanUp
+        companyDao.deleteAll();
+    }
+
 }

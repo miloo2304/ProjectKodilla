@@ -11,7 +11,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "TASKLIST")
-public final class TaskList {
+public class TaskList {
 
     private int id;
     private String listName;

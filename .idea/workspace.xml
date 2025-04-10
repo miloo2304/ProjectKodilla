@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,11 +14,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/task/dao/TaskDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/tasklist/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/tasklist/dao/TaskListDaoTestSuite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +118,8 @@
     "Gradle.CheckersTestSuite.executor": "Run",
     "Gradle.CheckersTestSuite.testCheckersBuilder.executor": "Debug",
     "Gradle.CompanyDaoTestSuite.executor": "Run",
+    "Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters.executor": "Run",
+    "Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch.executor": "Run",
     "Gradle.CompanyDaoTestSuite.testSaveManyToMany.executor": "Run",
     "Gradle.CustomerTestSuite.executor": "Run",
     "Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor": "Run",
@@ -165,6 +169,7 @@
     "Gradle.SimpleInvoiceTestSuite.executor": "Run",
     "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Debug",
     "Gradle.TaskDaoTestSuite.executor": "Run",
+    "Gradle.TaskDaoTestSuite.testNamedQueries.executor": "Run",
     "Gradle.TaskDaoTestSuite.testTaskDaoFindByDuration.executor": "Run",
     "Gradle.TaskDaoTestSuite.testTaskDaoSave.executor": "Run",
     "Gradle.TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails.executor": "Run",
@@ -220,8 +225,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave">
-    <configuration name="CompanyDaoTestSuite.testSaveManyToMany" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch">
+    <configuration name="CompanyDaoTestSuite.testFindByFirstThreeCharacters" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -234,7 +239,31 @@
           <list>
             <option value=":kodilla-hibernate:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testSaveManyToMany&quot;" />
+            <option value="&quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testFindByFirstThreeCharacters&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-hibernate:test" />
+            <option value="--tests" />
+            <option value="&quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -293,7 +322,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="InvoiceRepositoryTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TaskDaoTestSuite.testNamedQueries" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -306,31 +335,7 @@
           <list>
             <option value=":kodilla-hibernate:test" />
             <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.invoice.dao.InvoiceRepositoryTestSuite&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-hibernate:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.invoice.dao.InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts&quot;" />
+            <option value="&quot;com.kodilla.hibernate.task.dao.TaskDaoTestSuite.testNamedQueries&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -374,22 +379,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters" />
+      <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" />
       <item itemvalue="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave" />
-      <item itemvalue="Gradle.CompanyDaoTestSuite.testSaveManyToMany" />
+      <item itemvalue="Gradle.TaskDaoTestSuite.testNamedQueries" />
       <item itemvalue="Gradle.InvoiceDaoTestSuite" />
-      <item itemvalue="Gradle.InvoiceRepositoryTestSuite" />
-      <item itemvalue="Gradle.InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
       <item itemvalue="Spring Boot.KodillaSpringApplication" />
       <item itemvalue="Spring Boot.KodillaSpringWebApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave" />
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" />
+        <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters" />
+        <item itemvalue="Gradle.TaskDaoTestSuite.testNamedQueries" />
         <item itemvalue="Gradle.InvoiceDaoTestSuite" />
-        <item itemvalue="Gradle.InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts" />
-        <item itemvalue="Gradle.InvoiceRepositoryTestSuite" />
-        <item itemvalue="Gradle.CompanyDaoTestSuite.testSaveManyToMany" />
+        <item itemvalue="Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +433,7 @@
       <workItem from="1743582667243" duration="622000" />
       <workItem from="1743884151925" duration="4680000" />
       <workItem from="1743889456439" duration="1924000" />
-      <workItem from="1743952741740" duration="31064000" />
+      <workItem from="1743952741740" duration="37346000" />
     </task>
     <servers />
   </component>
@@ -487,15 +492,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/kodilla-hibernate/src/test/java/com/kodilla/hibernate/task/dao/TaskDaoTestSuite.java</url>
-          <line>37</line>
-          <properties class="com.kodilla.hibernate.task.dao.TaskDaoTestSuite" method="testTaskDaoFindByDuration">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/kodilla-stream/src/test/java/com/kodilla/stream/TESTS/WholeWorld/WholeWorldTestSuite.java</url>
