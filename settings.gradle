@@ -10,4 +10,4 @@ include 'kodilla-patterns'
 include 'kodilla-mysql'
 include 'kodilla-jdbc'
 include 'kodilla-hibernate'
-
+include 'kodilla-patterns2'

@@ -28,6 +28,7 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.11.4'
 	testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.11.4'
+	implementation 'com.h2database:h2'
 }
 
 tasks.named('test') {
