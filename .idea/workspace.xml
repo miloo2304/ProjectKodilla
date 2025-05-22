@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ade270-7d5d-47cb-8c6b-c534b1cda037" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.12.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -15,13 +14,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/java/com/kodilla/hibernate/KodillaHibernateApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kodilla-hibernate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +76,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -101,135 +94,137 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.MovieStore.executor": "Run",
-    "Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor": "Run",
-    "Gradle.ArrayOperationsTestSuite.executor": "Run",
-    "Gradle.BigmacTestSuite.executor": "Run",
-    "Gradle.BigmacTestSuite.testBigmacBuilderWithInvalidIngredient.executor": "Run",
-    "Gradle.BoardTestSuite (1).executor": "Run",
-    "Gradle.BoardTestSuite.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor": "Run",
-    "Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor": "Run",
-    "Gradle.BookTestSuite.executor": "Run",
-    "Gradle.BookTestSuite.testGetListUsingFor.executor": "Run",
-    "Gradle.Build ProjectKodilla.executor": "Run",
-    "Gradle.CalculatorTest.executor": "Run",
-    "Gradle.CalculatorTest.testDivideAndMultiply.executor": "Run",
-    "Gradle.CalculatorTest.testSimpleDisplayIntegration.executor": "Run",
-    "Gradle.CalculatorTestSuite.executor": "Run",
-    "Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor": "Run",
-    "Gradle.CalculatorTestSuite.testSubstract.executor": "Run",
-    "Gradle.CheckersTestSuite.executor": "Run",
-    "Gradle.CheckersTestSuite.testCheckersBuilder.executor": "Debug",
-    "Gradle.CompanyDaoTestSuite.executor": "Run",
-    "Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters.executor": "Run",
-    "Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch.executor": "Run",
-    "Gradle.CompanyDaoTestSuite.testSaveManyToMany.executor": "Run",
-    "Gradle.CustomerTestSuite.executor": "Run",
-    "Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor": "Run",
-    "Gradle.DbManagerTestSuite.executor": "Run",
-    "Gradle.DbManagerTestSuite.testConnect.executor": "Run",
-    "Gradle.DbManagerTestSuite.testSelectUsers.executor": "Run",
-    "Gradle.DbManagerTestSuite.testSelectUsersWithAtLeastTwoPosts.executor": "Run",
-    "Gradle.ForumUserTestSuite.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor": "Run",
-    "Gradle.ForumUserTestSuite.testGetUsername.executor": "Run",
-    "Gradle.InvoiceDaoTestSuite.executor": "Run",
-    "Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave.executor": "Run",
-    "Gradle.InvoiceRepositoryTestSuite.executor": "Run",
-    "Gradle.InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts.executor": "Run",
-    "Gradle.KodillaApplicationTests.executor": "Run",
-    "Gradle.KodillaHibernateApplicationTests.contextLoads.executor": "Run",
-    "Gradle.KodillaSpringApplicationTests.executor": "Run",
-    "Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor": "Run",
-    "Gradle.LibraryTestSuite.executor": "Run",
-    "Gradle.LibraryTestSuite.testContext.executor": "Run",
-    "Gradle.LibraryTestSuite.testGetBooks.executor": "Run",
-    "Gradle.LibraryTestSuite.testLoadFromDb.executor": "Run",
-    "Gradle.LoopTestSuite.executor": "Run",
-    "Gradle.LoopTestSuite.testLoop.executor": "Run",
-    "Gradle.PizzaTestSuite.executor": "Run",
-    "Gradle.PizzaTestSuite.testPizzaNew.executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-good-patterns [:kodilla-good-patterns:com.kodilla.good.patterns.ChallengeFlight.Main.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-hibernate [:kodilla-hibernate:com.kodilla.hibernate.additionally.Table.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-mysql [:kodilla-mysql:ExportIssuesToFile.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-mysql [:kodilla-mysql:Integers.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.MainClass.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.fibonacci.FibonacciMain.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.train.Numbers.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor": "Run",
-    "Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor": "Run",
-    "Gradle.ReaderTestSuite.executor": "Run",
-    "Gradle.ReaderTestSuite.testConditional.executor": "Run",
-    "Gradle.SandStorageTestSuite.executor": "Run",
-    "Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor": "Run",
-    "Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor": "Run",
-    "Gradle.SearchFacadeTestSuite.executor": "Run",
-    "Gradle.SettingsFileEngineTestSuite.executor": "Run",
-    "Gradle.ShapeCollectorTestSuite.executor": "Run",
-    "Gradle.ShapeFactoryTestSuite.executor": "Run",
-    "Gradle.ShopServiceTestSuite.executor": "Run",
-    "Gradle.ShopServiceTestSuite.testShopFacade.executor": "Run",
-    "Gradle.SimpleInvoiceTestSuite.executor": "Run",
-    "Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor": "Debug",
-    "Gradle.TaskDaoTestSuite.executor": "Run",
-    "Gradle.TaskDaoTestSuite.testNamedQueries.executor": "Run",
-    "Gradle.TaskDaoTestSuite.testTaskDaoFindByDuration.executor": "Run",
-    "Gradle.TaskDaoTestSuite.testTaskDaoSave.executor": "Run",
-    "Gradle.TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails.executor": "Run",
-    "Gradle.TaskFactoryTestSuite.executor": "Run",
-    "Gradle.TaskFinancialDetailsDaoTestSuite.executor": "Run",
-    "Gradle.TaskFinancialDetailsDaoTestSuite.testFindByPaid.executor": "Run",
-    "Gradle.TaskListDaoTestSuite.executor": "Run",
-    "Gradle.TaskListDaoTestSuite.testTaskListDaoFindByListName.executor": "Run",
-    "Gradle.TaskListDaoTestSuite.testTaskListDaoSaveWithTasks.executor": "Run",
-    "Gradle.UserTestSuite.executor": "Run",
-    "Gradle.WholeWorldTestSuite.executor": "Run",
-    "Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor": "Run",
-    "JUnit.ForumDirectoryTestSuite.executor": "Run",
-    "JUnit.SearchFacadeTestSuite.executor": "Run",
-    "JUnit.WholeWorldTestSuite.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.KodillaHibernateApplication.executor": "Run",
-    "Spring Boot.KodillaSpringApplication (1).executor": "Run",
-    "Spring Boot.KodillaSpringApplication.executor": "Run",
-    "Spring Boot.KodillaSpringWebApplication.executor": "Run",
-    "Spring Boot.MainClass.executor": "Run",
-    "Spring Boot.ProjectKodillaApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "debugger.dataViews",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MovieStore.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.kodilla.good.patterns.challenges.ChalengePart1.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ArrayOperationsTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BigmacTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BigmacTestSuite.testBigmacBuilderWithInvalidIngredient.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListAverageWorkingOnTask.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindLongTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindOutdatedTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BoardTestSuite.testAddTaskListFindUsersTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BookTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.BookTestSuite.testGetListUsingFor.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ProjectKodilla.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.testDivideAndMultiply.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTest.testSimpleDisplayIntegration.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTestSuite.shouldCalculateSimpleAddition.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CalculatorTestSuite.testSubstract.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckersTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CheckersTestSuite.testCheckersBuilder.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.CompanyDaoTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CompanyDaoTestSuite.testSaveManyToMany.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CustomerTestSuite.testIndividualInvestingStrategy.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DbManagerTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DbManagerTestSuite.testConnect.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DbManagerTestSuite.testSelectUsers.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DbManagerTestSuite.testSelectUsersWithAtLeastTwoPosts.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriends.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetLocationsOfFriendsOfFriends.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ForumUserTestSuite.testGetUsername.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvoiceDaoTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvoiceDaoTestSuite.testInvoiceDaoSave.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvoiceRepositoryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.InvoiceRepositoryTestSuite.testInvoiceRepositorySaveWithItemsAndProducts.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaHibernateApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaSpringApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.KodillaSpringApplicationTests.testSquareLoadedIntoContainer.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.testContext.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.testGetBooks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LibraryTestSuite.testLoadFromDb.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoopTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.LoopTestSuite.testLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PizzaTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.PizzaTestSuite.testPizzaNew.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-good-patterns [:kodilla-good-patterns:com.kodilla.good.patterns.ChallengeFlight.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-hibernate [:kodilla-hibernate:com.kodilla.hibernate.additionally.Table.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-mysql [:kodilla-mysql:ExportIssuesToFile.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-mysql [:kodilla-mysql:Integers.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.MainClass.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.fibonacci.FibonacciMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-patterns [:kodilla-patterns:com.kodilla.patterns.train.Numbers.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-spring [:kodilla-spring:com.kodilla.spring.calculator.MainClass.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-stream [:kodilla-stream:com.kodilla.stream.StreamMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_1.TestingMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ProjectKodilla:kodilla-testing [:kodilla-testing:com.kodilla.testing.Project_6_2.ClassMain.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReaderTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReaderTestSuite.testConditional.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantity.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SandStorageTestSuite.testGetSandBeansQuantityWithReduce.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SearchFacadeTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SettingsFileEngineTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShapeCollectorTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShapeFactoryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShopServiceTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ShopServiceTestSuite.testShopFacade.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleInvoiceTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleInvoiceTestSuite.testGetValueToPay.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.TaskDaoTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskDaoTestSuite.testNamedQueries.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskDaoTestSuite.testTaskDaoFindByDuration.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskDaoTestSuite.testTaskDaoSave.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskDaoTestSuite.testTaskDaoSaveWithFinancialDetails.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskFactoryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskFinancialDetailsDaoTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskFinancialDetailsDaoTestSuite.testFindByPaid.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskListDaoTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskListDaoTestSuite.testTaskListDaoFindByListName.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaskListDaoTestSuite.testTaskListDaoSaveWithTasks.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TaxiOrderTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UserTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.WholeWorldTestSuite.testGetPeopleQuantity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ForumDirectoryTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SearchFacadeTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WholeWorldTestSuite.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KodillaHibernateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KodillaSpringApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KodillaSpringApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.KodillaSpringWebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ProjectKodillaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mpods/IdeaProjects/ProjectKodilla&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;debugger.dataViews&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -240,31 +235,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SearchFacadeTestSuite">
-    <configuration name="CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":kodilla-hibernate:test" />
-            <option value="--tests" />
-            <option value="&quot;com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.TaxiOrderTestSuite">
     <configuration name="SearchFacadeTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -337,6 +308,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="TaxiOrderTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":kodilla-patterns2:test" />
+            <option value="--tests" />
+            <option value="&quot;com.pl.kodillapatterns2.decorator.taxiportal.TaxiOrderTestSuite&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SearchFacadeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-hibernate.test" />
       <extension name="coverage">
@@ -351,17 +346,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="ProjectKodilla.kodilla-hibernate.test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ProjectKodilla.kodilla-hibernate.test" />
-      <option name="filePath" />
-      <method v="2" />
     </configuration>
     <configuration name="KodillaHibernateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjectKodilla.kodilla-hibernate.main" />
@@ -392,10 +376,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TaxiOrderTestSuite" />
       <item itemvalue="Gradle.SearchFacadeTestSuite" />
       <item itemvalue="Gradle.ShopServiceTestSuite" />
       <item itemvalue="Gradle.ShopServiceTestSuite.testShopFacade" />
-      <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" />
       <item itemvalue="JUnit.SearchFacadeTestSuite" />
       <item itemvalue="Spring Boot.KodillaPatterns2Application" />
       <item itemvalue="Spring Boot.KodillaHibernateApplication" />
@@ -404,11 +388,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TaxiOrderTestSuite" />
         <item itemvalue="Gradle.SearchFacadeTestSuite" />
         <item itemvalue="JUnit.SearchFacadeTestSuite" />
         <item itemvalue="Gradle.ShopServiceTestSuite.testShopFacade" />
         <item itemvalue="Gradle.ShopServiceTestSuite" />
-        <item itemvalue="Gradle.CompanyDaoTestSuite.testFindByFirstThreeCharacters_NoMatch" />
       </list>
     </recent_temporary>
   </component>
@@ -448,7 +432,8 @@
       <workItem from="1743884151925" duration="4680000" />
       <workItem from="1743889456439" duration="1924000" />
       <workItem from="1743952741740" duration="37346000" />
-      <workItem from="1747823682871" duration="4913000" />
+      <workItem from="1747823682871" duration="7594000" />
+      <workItem from="1747892851128" duration="4285000" />
     </task>
     <servers />
   </component>
